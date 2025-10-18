@@ -1,0 +1,82 @@
+# Node modules and dependencies
+node_modules/
+jspm_packages/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+coverage/
+tmp/
+temp/
+
+# Cache
+.cache/
+.npm/
+.eslintcache
+.stylelintcache
+.vscode/
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Docker
+docker-compose.override.yml
+*.dockerfile
+*.tar
+
+# PM2 logs & configs
+.pm2/
+*.log
+
+# TypeScript build artifacts
+*.js
+*.d.ts
+*.map
+
+# Optional: database dumps
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: uploaded files (if not versioned)
+uploads/
+storage/
+
+# Optional: local certificates
+*.pem
+*.crt
+*.key
