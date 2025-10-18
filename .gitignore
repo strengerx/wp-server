@@ -1,6 +1,5 @@
-# Node modules and dependencies
+# Node dependencies
 node_modules/
-jspm_packages/
 
 # Logs
 logs/
@@ -10,12 +9,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Runtime data
-pids/
-*.pid
-*.seed
-*.pid.lock
-
 # Environment files
 .env
 .env.local
@@ -23,60 +16,46 @@ pids/
 .env.test.local
 .env.production.local
 
-# Build outputs
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build or cache directories
 dist/
 build/
-coverage/
+.cache/
 tmp/
 temp/
-
-# Cache
-.cache/
-.npm/
-.eslintcache
-.stylelintcache
-.vscode/
-*.tsbuildinfo
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# IDE settings
-.idea/
-.vscode/
-*.swp
-*.swo
+.nyc_output/
 
 # Test coverage
 coverage/
-.nyc_output/
 
-# Docker
-docker-compose.override.yml
-*.dockerfile
-*.tar
+# IDE/editor folders
+.vscode/
+.idea/
 
-# PM2 logs & configs
-.pm2/
-*.log
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# TypeScript build artifacts
-*.js
-*.d.ts
-*.map
-
-# Optional: database dumps
-*.sql
+# Optional: database & uploads (if not versioned)
 *.sqlite
 *.sqlite3
 *.db
-
-# Optional: uploaded files (if not versioned)
 uploads/
 storage/
 
-# Optional: local certificates
+# Docker
+docker-compose.override.yml
+*.tar
+
+# PM2 logs/configs
+.pm2/
+
+# Optional: local SSL certs
 *.pem
 *.crt
 *.key
